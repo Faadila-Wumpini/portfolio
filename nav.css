@@ -1,0 +1,31 @@
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(13, 35, 28);
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav > ul {
+    display: flex;
+    width: 45%;
+    border-left: 1px solid rgb(46, 46, 116);
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px 10px;
+
+}
+
+ul > li > a:hover {
+    color: cornflowerblue;
+}
+
+ul > li > a {
+    color: whitesmoke;
+    font-size: 20px;
+    transition: all.5s ease-in;
+}
